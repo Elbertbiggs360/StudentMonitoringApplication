@@ -17,6 +17,10 @@ html {
 .classInfo label{
 
 }
+.spacing{
+  margin-left: 5%;
+  margin-top:5%;
+}
 .profileInfo{
   line-height: 1.5em;
 }

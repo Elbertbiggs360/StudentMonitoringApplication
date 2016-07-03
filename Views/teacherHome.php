@@ -22,8 +22,11 @@
         <a class="mdl-navigation__link" href="?action=logout"><span class="glyphicon glyphicon-log-out"></span> LOGOUT</a>
     </nav>
   </div>
-
 </div>
+<main class="mdl-layout__content">
+        <div class="page-content"><!-- Your content goes here -->
+        <div class="container">
+        <div class="classInfo" style="background-color:#eee">
 	     <table class="table">
 			    <thead>
 				    <tr>
@@ -44,6 +47,10 @@
 			    ?>
 			    </tbody>
 		    </table>
+		    </div>
+		    </div>
+		    </div>
+		    </main>
     	
 <?php
     }

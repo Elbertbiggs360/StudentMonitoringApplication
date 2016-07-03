@@ -2,31 +2,30 @@
 	function userRegistration()
 	{
 ?>
-		<nav id="navigation">
-			<div class="menu">
-                <nav class="navbar navbar-inverse">
-                  <div class="container-fluid">
-                    <div class="navbar-header">
-                      <a class="navbar-brand" href="#">SMA REGISTRATION</a>
-                    </div>
-                    <div>
-
-                        <ul class="nav navbar-nav navbar-right">
-                           <?php if($i == 1){?> <li class="active"> <?php } else{?> <li> <?php } ?><a href="?action=registerParent"><span class="glyphicon glyphicon-user"></span> PARENT REGISTRATION</a></li>
-                           <?php if($i == 2){?><li class="active"> <?php } else{?> <li> <?php } ?><a href="?action=registerTeacher"><span class="glyphicon glyphicon-user"></span>  TEACHER REGISITRATION</a></li>
-                            <?php if($i == 3){?><li class="active"> <?php } else{?> <li> <?php } ?><a href="?action=login"><span class="glyphicon glyphicon-log-in"></span>  LOGIN</a></li>
-                        </ul>
-
-                    </div>
-                  </div>
-                </nav>
-
-
-				<?php
-				?>
-				
-			</div>
-		</nav>
+<div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+  <header class="mdl-layout__header">
+      <div class="mdl-layout__header-row">
+      <!-- Title -->
+        <span class="mdl-layout-title">SMRA Registration</span>
+      <!-- Add spacer, to align navigation to the right -->
+        <div class="mdl-layout-spacer"></div>
+        <!-- Navigation. We hide it in small screens. -->
+          <nav class="mdl-navigation mdl-layout--large-screen-only">
+            <a class="mdl-navigation__link" href="?action=registerParent">Parent Registration</a>
+            <a class="mdl-navigation__link" href="?action=registerTeacher">Teacher Registration</a>
+            <a class="mdl-navigation__link" href="?action=login"><span class="glyphicon glyphicon-log-in"></span> login</a>
+          </nav>
+      </div>
+  </header>
+  <div class="mdl-layout__drawer">
+    <span class="mdl-layout-title">Registration</span>
+    <nav class="mdl-navigation">
+      <a class="mdl-navigation__link" href="?action=registerParent">Parent Registration</a>
+      <a class="mdl-navigation__link" href="?action=registerTeacher">Teacher Registration</a>
+      <a class="mdl-navigation__link" href="?action=login"><span class="glyphicon glyphicon-log-in"></span> login</a>
+    </nav>
+  </div>
+</div>
 <?php
 	}
 ?>

@@ -1,7 +1,10 @@
 <?php 
 	function viewSubjectStream($streamId, $subjectId){
 ?>
-	<div class="container">
+<main class="mdl-layout__content">
+        <div class="page-content"><!-- Your content goes here -->
+        <div class="container">
+        <div class="classInfo" style="background-color:#fff; border:1px Solid #eeeeee; padding:1%; width:65%; margin-left:10%">
 		<table class="table">
 			<thead>
 				<tr>
@@ -22,7 +25,7 @@
             ?>
 			</tbody>
 		</table>
-	</div>
+	</div></div></div></main>
 <?php
 	}
 ?>

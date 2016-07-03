@@ -35,10 +35,9 @@
 
   <ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect"
     for="demo-menu-lower-right">
-  <li class="mdl-menu__item">Chat with teacher</li>
-  <li class="mdl-menu__item">Another Action</li>
-  <li disabled class="mdl-menu__item">Disabled Action</li>
-  <li class="mdl-menu__item">Yet Another Action</li>
+  <li class="mdl-menu__item">View charts</li>
+  <li disabled class="mdl-menu__item">Chat with teacher</li>
+  <li disabled class="mdl-menu__item">Leave feedback</li>
 </ul>
 
 </div>

@@ -2,7 +2,9 @@
 	function StudentRegistrationForm()
 	{
 ?>
-
+<main class="mdl-layout__content">
+        <div class="page-content">
+        <div style="margin:10% 30%">
 		<form role="form" method="post" action="?connect=studentReg"> 
 			<h3>REGISTER STUDENT </h3>
 			<div class="form-group"> 
@@ -45,7 +47,8 @@
                 <input type="file" name="fileToUpload" id="fileToUpload">
             </div>		
 			<button type="submit" name="submit" id="submit" class="btn btn-default">SUBMIT</button> 
-		</form>
+		</form></div>
+		</div></main>
 		
 <?php
 	}

@@ -3,6 +3,10 @@
         //have not yet filed in the form parameters
 
 ?>
+<main class="mdl-layout__content">
+        <div class="page-content"><!-- Your content goes here -->
+        <div class="container">
+        <div class="classInfo" style="background-color:#fff; border:1px Solid #eeeeee; padding:1%; width:65%; margin-left:10%">
     <form role="" method="" action="">
         <div class="form-group">
             <label for="subject">Select Subject</label>
@@ -117,6 +121,7 @@
             </select>
         </div>
     </form>
+    </div></div></div></main>
 <?php
     }
 ?>

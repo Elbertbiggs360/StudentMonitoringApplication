@@ -1,13 +1,17 @@
 <?php 
 	function viewIndividualResults($subjectId, $sfname, $slname, $studentid){
-        echo "<label>Results Of {$sfname} {$slname}</label>";
+        
 ?>
-    
-	<div class="container">
+ <main class="mdl-layout__content">
+        <div class="page-content"><!-- Your content goes here -->
+        <div class="container" style="margin-top:8%">
+        <!-- Square card -->
+        <?php echo "<label>Results Of {$sfname} {$slname}</label>"; ?><hr>
+  <div style="margin-left:5%; width:90%">
 		<table class="table">
 			<thead>
 				<tr>
-					<th>Term</th>
+					<th width=80px>Term</th>
                     <th>Test Type</th>
                     <th>Year</th>
                     <th>Marks</th>
@@ -26,9 +30,10 @@
             ?>
 			</tbody>
 		</table>
-
-        <div id="container" style="width: 100%; height: 400px; margin: 0 auto"></div>
-	</div>
+		</div>
+		</div>
+		</div>
+		</main>
 <?php
 	}
 ?>

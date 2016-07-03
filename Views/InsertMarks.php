@@ -7,6 +7,10 @@
         }
         $index = 0;
 ?>
+<main class="mdl-layout__content">
+        <div class="page-content"><!-- Your content goes here -->
+        <div class="container">
+        <div class="classInfo" style="background-color:#fff; border:1px Solid #eeeeee; padding:1%; width:65%; margin-left:10%">
     <form role="form" method="post" action="?action=insertMarks">
         <h3>Insert Students Marks</h3>
         
@@ -40,6 +44,7 @@
         ?>
         <button type="submit" class="btn btn-default">SUBMIT</button> 
 	</form>
+	</div></div></div></main>
 <?php
 	}
 ?>

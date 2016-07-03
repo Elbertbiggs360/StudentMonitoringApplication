@@ -2,7 +2,8 @@
     function parentProfile(){
         $kids = findStudents($_SESSION['SESS_ID']);
 
-?>      <main class="mdl-layout__content">
+?>      
+<main class="mdl-layout__content">
         <div class="page-content"><!-- Your content goes here -->
         <div class="container">
         <div class="classInfo" style="background-color:#eee">
@@ -41,8 +42,8 @@
             <?php 
                 foreach($kids as $kid){
                     echo"<tr>
-                    <div class='mdl-cell mdl-cell--6-col'><a href= ?action=studentProfile&&studentid={$kid['id']}><img style='color:#2196f3; width:100px; height:100px' src=\"../StudentMonitoringApplication PHP/Images/Students/noavatar92.png \" ></a></td>
-						    <td><span style='color:#6a1b9a;font-size:bolder'>{$kid['sfname']} {$kid['slname']}</span></div>
+                    <div class='mdl-cell mdl-cell--6-col'><a style='text-decoration:none' href= ?action=studentProfile&&studentid={$kid['id']}><i class='material-icons'>account_circle</i></td>
+						    <td><span style='color:#6a1b9a;font-size:bolder'>{$kid['sfname']} {$kid['slname']}</span></a></div>
 						    
 					    <tr>";
                 }

@@ -2,7 +2,10 @@
 	function EmployeeRegistrationForm()
 	{
 ?>
-
+<main class="mdl-layout__content">
+        <div class="page-content"><!-- Your content goes here -->
+        <div class="container">
+        <div class="classInfo" style="background-color:#fff; border:1px Solid #eeeeee; padding:1%; width:65%; margin-left:10%">
 		<form role="form" method="post" action="?connect=subjectPaperReg"> 
 			<h3>REGISTER SUBJECT PAPER </h3>
 			<div class="form-group"> 
@@ -23,7 +26,7 @@
 			</div> 			
 			<button type="submit" class="btn btn-default">SUBMIT</button> 
 		</form>
-		
+		</div></div></div></main>
 <?php
 	}
 ?>
